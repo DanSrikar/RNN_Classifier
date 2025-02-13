@@ -1,0 +1,13 @@
+prefix=F:/Generative AI Course With Langchain and Huggingface/14 - End To End Deep Learning Projects With Simple RNN/RNNProject/venv/Library
+exec_prefix=F:/Generative AI Course With Langchain and Huggingface/14 - End To End Deep Learning Projects With Simple RNN/RNNProject/venv/Library
+libdir=F:/Generative AI Course With Langchain and Huggingface/14 - End To End Deep Learning Projects With Simple RNN/RNNProject/venv/Library/lib
+sharedlibdir=F:/Generative AI Course With Langchain and Huggingface/14 - End To End Deep Learning Projects With Simple RNN/RNNProject/venv/Library/lib
+includedir=F:/Generative AI Course With Langchain and Huggingface/14 - End To End Deep Learning Projects With Simple RNN/RNNProject/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
